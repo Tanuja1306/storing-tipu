@@ -1,0 +1,67 @@
+
+body{
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top;
+ background-image:url(https://wallpapercave.com/wp/wp2406536.jpg);
+ width: 100%;
+ height: 100%;
+ font-family: Monaco;
+ font-size: 13px;
+ font-weight: 200;
+ letter-spacing: 0.02em;
+ 
+ -webkit-font-smoothing: antialiased; 
+}
+
+
+.click-button
+{
+
+	 background-color: black;
+  border: none;
+  margin-right: 25px;
+  color: cyan;
+  padding: 2px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Copperplate; 
+  font-size: 15px;
+}
+
+.content {
+
+  position: fixed;
+   height: auto;
+   margin-left: 8%;
+   top: 2%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 80%;
+  padding: 20px;
+}
+
+h1
+{
+	text-align: center;
+	font-family: Lucida Console;
+	color: white;
+}
+p
+{   text-align: justify;
+	color: white;
+	padding: 20px;
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+
